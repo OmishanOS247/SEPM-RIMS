@@ -1,0 +1,101 @@
+h1,
+h4 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 800;
+  color: #008782;
+}
+
+.para {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 800;
+  color: #008782;
+}
+
+.main {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.card_subject li a {
+  border: 1px solid #00928d;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ebf6f5;
+  color: blue;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px #008782;
+}
+
+.card_subject li a:hover {
+  border: 2px solid #00928d;
+  box-shadow: 4px 4px 5px #008782;
+  background-color: #00fff712;
+  padding: 12px;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.card_subject li {
+  margin-top: -1px;
+  padding: 15px;
+}
+
+.subicon img {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 140px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 2px 4px 5px black;
+}
+
+.card_subject {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: -50px;
+  border: 2px solid #5cbdb9;
+  border-radius: 10px;
+  background-image: linear-gradient(150deg,
+      rgba(127, 255, 212, 0.344),
+      aliceblue,
+      #5cbdba4e);
+  box-shadow: 4px 4px 5px #5cbdba90;
+  padding: 50px;
+}
+
+.card-text a {
+  margin-left: 11px;
+  color: #5cbdb9;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.card-title {
+  padding: 10px;
+  color: #008782;
+  font-weight: 800;
+}
+
+a:active {
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 50px;
+  border: 1px #5cbdb9;
+  border-radius: 5px;
+}
+
+.text-uppercase {
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #ebf6f5;
+}

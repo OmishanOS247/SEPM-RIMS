@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RIMS 10 year Questions</title>
+    <link rel="icon" type="image/png/webp" href="/asset/10YQ_logo_a.png">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="rims-logo.jpg" type="image/icon type">
+    <script src="https://kit.fontawesome.com/3fc0b17dd7.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body scroll="yes">
+    <nav>
+        <div class="logoimg"><a href="/home.html"><img class="logo" src="/asset/rims-logo.jpg" alt="logo"></a></div>
+        <div class="logotxt">RIMS</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menubtn"><i class="fas fa-bars"></i></label>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="#course">Department</a></li>
+            <li><a href="sub.html">Subjects</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <div class="part1">
+        <h2>10 year Question Papers</h2>
+        <p>In this website we are giving past 10 year of Questions according to the Course, Semester & Subject.</p>
+        <a href="#course">Click here</a>
+
+        <img class="front_logo" id="Image" onclick="turnOnOff()" src="/asset/study.png" alt="">
+
+        <script>
+            function turnOnOff() {
+                var image = document.getElementById("Image");
+
+                if (image.src.match("ONbulb"))
+                    image.src = "/asset/study.png";
+                else
+                    image.src = "/asset/study_2a.png";
+            }
+        </script>
+    </div>
+    <div class="part2">
+        <p id="course"><b>Select Your Course</b></p>
+        <ul>
+            <div class="dept">
+                <li><a href="sem.html">BCA</a></li>
+                <li><a href="sem.html">BBA</a></li>
+                <li><a href="sem.html">BJMC</a></li>
+                <li><a href="sem.html">MCA</a></li>
+                <li><a href="sem.html">MBA</a></li>
+                <li><a href="sem.html">PGDM</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="part3">
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4">
+                <section class="mb-4">
+                    <p>
+                        We want to reduce <<< the gap ___ between HARD working stuednts & SMART working students. </p>
+                </section>
+
+                <section class="sec">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Exams</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">1st Sem</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">2nd Sem</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">3rd Sem</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Internals</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Department</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">BCA</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">BBA</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">BJMC</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">MCA</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Years</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">10</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">9</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">8</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">7</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Subjects</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">DL</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">PYTHON</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">WT</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">UNIX</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btn_log">
+                        <a href="login.html"><button class="login">Login</button></a>
+                    </div>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">10YearQuestions.com</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
